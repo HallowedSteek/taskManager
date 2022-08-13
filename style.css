@@ -1,0 +1,107 @@
+/* paleta culaore https://coolors.co/00596b-008eab-00aed1-00c5eb-00cef7 */
+
+:root{
+    --bg1:   #00596B;
+    --bg2:   #00C5EB;
+    --hover: #00AED1;
+    --hover2:#003e4a;
+    --text:  #00CEF7;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--bg1);
+  
+} 
+
+::-webkit-scrollbar-thumb {
+    background: var(--bg2); 
+    border-radius: 2px ;
+    margin-top: 250px;
+    margin-bottom: 250px;
+  }
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--hover); 
+}
+  
+
+.titleDeco{
+    background-color: var(--bg1);
+}
+
+.text{
+    color: var(--bg2);
+}
+
+body{
+    background-color: var(--bg2);
+}
+
+.btn{
+    border: solid;
+}
+.rit{
+  width: 0;
+  height: 0;
+  border-top: 50px solid red;
+  border-right: 50px solid transparent;
+}
+
+.input-group>input.typeTaskInput{
+    flex: 0 1 50%;
+}
+
+
+/* .add,.remove{
+    background-color: var(--bg1);
+    color: var(--text);
+    border: solid black 2px;
+}
+
+.add:hover,.remove:hover{
+    background-color: var(--hover2);
+    color: var(--hover);
+    border: solid black 2px;
+} */
+
+.typeTaskInput, .task{
+    border: solid black 2px;
+}
+
+.input-group{
+    flex-wrap: nowrap;
+}
+
+
+.btn.active{
+    background-color: var(--bg1);
+    color: var(--text);
+    border: solid black 2px;
+}
+
+.btn.active:hover{
+    background-color: var(--hover2);
+    color: var(--hover);
+    border: solid black 2px;
+}
+
+
+#finishDay:hover{
+    background-color: rgb(0, 255, 157);
+    color: black;
+
+}
+
+.borderTaskList{
+    border: solid 3px var(--bg1);
+    border-radius:5px;
+    box-shadow: 0 0 20px var(--bg1);
+}
+
+#taskList{
+    background-color: #008EAB;
+}
